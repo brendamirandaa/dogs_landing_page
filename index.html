@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+
+    <!--required meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" 
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Bootstrap CSS--> 
+        <link rel="stylesheet" 
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+              crossorigin="anonymous">
+        <link rel= "stylesheet" 
+              href="css/style.css">
+
+              <title> Cachorros - Os animais mais queridos do mundo. </title>
+  </head>
+  
+
+
+
+  <body>
+
+
+  <!-- script Bootstrap-->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+              integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+              crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+              integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+              crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+              integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+              crossorigin="anonymous"></script>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <!-- Modal Header --> 
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"> Sobre Você </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+      <!-- Modal Body--> 
+          <div class="modal-body">
+            Deixe suas informações para adotar seu melhor amigo!
+            <form>
+           <div class="form-group">
+            <label for="message-text" class="col-form-label">Nome:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">E-mail:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Telefone:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+          </div>
+
+      <!-- Modal Footer--> 
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-dismiss= "modal">Save changes</button>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+<!--navbar-->
+
+  
+  <nav class="navbar bg fixed-top navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" href="#">
+      <img src="img/dog-icon.png" width="30" height="30" alt="dog-logo"> Shake
+    </a>
+    <div class= "container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Por que cachorros?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Alimentação</a>
+                  </li>
+                  <li class="nav-item">
+                   <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-outline-primary my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal">Adotar </button>
+                  </li>
+                </ul>
+          </div>
+     </div>
+ </nav>
+  
+
+  <!--header-->
+        <header>
+          <div class= "container">
+            <div class = "row">
+              <div class = "col text-center">
+               
+                <h1> O Shake torna a sua vida mais feliz </h1>
+                <p> A chave para a vida feliz é ter um cachorro </p>
+                 <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Adotar </button>
+
+              </div>
+            </div>
+          </div>
+        </header>
+
+
+  <!--first-section-->
+         <div class= "section first-section">
+          <div class = "container">
+            <div class = "row align-items-center justify-content-around">
+
+     
+      <!-- column 1 -->
+              <div class= "col-12 col-lg-5">
+               
+                <img class="img-fluid" src="img/dog-first-section.png" alt="dog fofo">
+
+              </div>
+
+      <!-- column 2 -->  
+              <div class= "col-12 col-lg-5">          
+                
+                <h2> A fidelidade em forma de quatro patas</h2>
+                  <p> Um dia, voltando da faculdade resolvi dar um abraço num cachorro de rua. Desde então, ele nunca mais me abandonou. </p>
+                  <p>Aqui estão só alguns dos motivos:</p>
+                  <ul>
+
+                    <li>Vão estar ao seu lado sempre que você mais precisar</li>
+                    <li> Sempre tentam fazer o máximo pra agradar seu dono</li>
+                    <li> Ficam incrivelmente felizes e agitados quando você chega em casa </li>
+                    <li>Estão sempre demonstrando carinho, de um jeito ou de outro.</li>
+                  </ul>
+
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+  <!-- second-section-->
+          <div class= "section second-section" >
+            <div class= "container">
+              <div class= "row justify-content-center text-center">
+                <div class = "col-12 col-sm-10 col-md-9 col-lg-8">
+                    
+                    <h2> Devoram tudo! </h2>
+                      <p> É bem fácil agradar um dog com comida. Aqui estão alguns exemplos de coisas que deixam eles com água na boca: </p>
+
+
+                      <div class = "row text-center">
+
+                            <div class = "guloseimas col-12 col-sm-6 col-lg-3">
+                              <img src="file:///Users/BrendaMiranda/Documents/Hike%20/Landing%20Page/img/broccoli_ic.png" class="img-fluid" alt="brocolis">
+                              <h3> Cabo de Iphone </h3>
+                              <p> Um vegetal cultivado desde a época do Império Romano, rico em cálcio, ferro e vitaminas.</p>
+                            </div>
+
+                          
+                            <div class = "guloseimas col-12 col-sm-6 col-lg-3">
+                              <img src="file:///Users/BrendaMiranda/Documents/Hike%20/Landing%20Page/img/popcorn_ic.png" class="img-fluid" alt="pipoca">
+                              <h3> Calcinhas </h3>
+                              <p> Um milho mágico, que estoura quando é aquecido e todo mundo ama. </p>
+                            </div>
+                          
+
+                            <div class = "guloseimas col-12 col-sm-6 col-lg-3">
+                              <img src="file:///Users/BrendaMiranda/Documents/Hike%20/Landing%20Page/img/popsicles_ic.png" class="img-fluid" alt="picole">
+                              <h3> Picolé </h3>
+                              <p> Um pedaço doce e gelado de sabor encaixado num palito.</p>
+                            </div>
+
+                            <div class = "guloseimas col-12 col-sm-6 col-lg-3">
+                              <img src= "file:///Users/BrendaMiranda/Documents/Hike%20/Landing%20Page/img/watermelon_ic.png" class="img-fluid" alt="melancia">
+                              <h3> Melancia </h3>
+                              <p> Talvez a fruta mais suculenta que a humanidade já conheceu. E os dogs também. </p>
+                            </div>
+
+                      </div>      
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+  <!-- third-section-->
+          
+
+          <div class= "section first-section">
+          <div class = "container">
+            <div class = "row align-items-center justify-content-around">
+
+
+      <!-- column 1 -->  
+              <div class= "col-12 col-md-5">          
+                
+                <h2>  Sempre divertidos </h2>
+                  <p> Joga uma bolinha pra mim? Posso brincar com seu chinelo?  </p>
+                      <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Adotar </button>
+
+                </div>
+     
+      <!-- column 2 -->
+              <div class= "col-12 col-md-5">
+               
+                <img class="img-fluid" src="file:///Users/BrendaMiranda/Documents/Hike%20/Landing%20Page/img/6.jpg" alt="dog correndo">
+
+              </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+<!--fourth section --> 
+          <div class= "section fourth-section ">
+            <div class = "container">
+              <div class = "row"> 
+                <div class = "text-center col-12">
+              <h2> Adote o Shake e ame-o pra sempre </h2>
+                <p> Você só vive uma vez </p>
+                      <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Adotar </button>
+
+
+
+
+                </div>
+              </div>
+            </div>
+           </div> 
+
+  <!--footer-->
+  
+        <footer class= "text-center">
+
+          <small> Feito com amor <span> <img class = "footer-logo" src="file:///Users/BrendaMiranda/Documents/Hike%20/Landing%20Page/img/hike-logo-small.png" alt="" ></span> por um Hiker</small> 
+
+        </footer>         
+
+  </body>
+
+
+</html>
+
+
+
+
+
+
+
+
